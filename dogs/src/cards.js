@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-  import { Link } from "react-router-dom";
-import logo from "./logo.png";
+import { Link } from "react-router-dom";
+import logo from "./title.png";
 import './App.css';
 
 const Cards = (props) => {

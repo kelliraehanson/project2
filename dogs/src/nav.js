@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import { Link } from "react-router-dom";
 
 const Navbar1 = (props) => {
     return (
-      <div className="navBar">
+      <div className="navBar1">
         <header>
+        <Link to="/"><i class="fas fa-paw">&nbsp;PUPFINDER</i></Link>
 
           <div className="fontAwesome">
-            <i class="fab fa-facebook-square"></i>&nbsp;
-            <i class="fab fa-twitter-square"></i>&nbsp;
+          <Link to="/about"><i class="fas fa-info-circle">&nbsp;About Us</i></Link>
           </div>
 
 
