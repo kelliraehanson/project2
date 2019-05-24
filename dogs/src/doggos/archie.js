@@ -2,16 +2,16 @@ import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import logo from "../title.png";
+import { Link } from "react-router-dom";
 import '../App.css';
 
 const Archie = (props) => {
   return (
     <div>
-      <header>
         <div className="logoTitle">
-            <img src={logo} className="logo" alt="sleep" />
+      <Link to="/">
+            <img src={logo} className="logo" alt="pup" /></Link>
         </div>
-      </header>
 
 <div className="cardAll">
 <div className="singleCard2">

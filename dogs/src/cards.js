@@ -8,12 +8,12 @@ import './App.css';
 const Cards = (props) => {
   return (
     <div>
-      <header>
-        {/* <h1>PUP FINDER</h1> */}
-        <div className="logoTitle">
-            <img src={logo} className="logo" alt="sleep" />
+    
+      <div className="logoTitle">
+      <Link to="/">
+            <img src={logo} className="logo" alt="pup" /></Link>
         </div>
-      </header>
+
 
 <div className="cardAll">
 <div className="singleCard">
