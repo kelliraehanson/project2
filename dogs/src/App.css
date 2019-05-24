@@ -1,0 +1,138 @@
+.app {
+  background-color: #f5f5f5;
+  ;
+}
+
+.singleCard {
+  border: 5px solid black;
+  width: 250px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 5px 5px grey;
+}
+
+.singleCard2 {
+  border: 5px solid black;
+  width: 550px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 5px 5px grey;
+}
+
+.cardAll {
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.cardThings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dogPic {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.name {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 2px 2px #e7e4e4;
+}
+
+.age {
+  font-style: italic;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navBar {
+  /* border: 2px solid blue; */
+  height: 40px;
+  width: 100%;
+  background-color: #fcfcfc;
+  /* border-bottom: 2px solid black; */
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.fontAwesome {
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.footerFontAwesome {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.formEmail {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.message {
+  width: 400px;
+}
+
+.logoTitle {
+  display: flex;
+  justify-content: center;
+  /* width: 100px; */
+}
+
+.logoTitle img {
+  border-radius: 100%;
+  border: 9px solid black;
+  height: 300px;
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px grey;
+}
