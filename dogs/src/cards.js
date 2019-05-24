@@ -31,7 +31,7 @@ const Cards = (props) => {
           </div>
           <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/blue">View More</Link></Button>
+          <div className="button"><Link to="/blue">View More</Link></div>
           </div>
         </CardBody>
         </div>
@@ -51,7 +51,7 @@ const Cards = (props) => {
           </div>
           <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/shadow">View More</Link></Button>
+          <div className="button"><Link to="/shadow">View More</Link></div>
           </div>
         </CardBody>
       </Card>
@@ -69,7 +69,7 @@ const Cards = (props) => {
           </div>
           <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/frank">View More</Link></Button>
+          <div className="button"><Link to="/frank">View More</Link></div>
           </div>
         </CardBody>
       </Card>
@@ -87,7 +87,7 @@ const Cards = (props) => {
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/skip">View More</Link></Button>
+          <div className="button"><Link to="/skip">View More</Link></div>
           </div>
         </CardBody>
       </Card>
@@ -108,7 +108,7 @@ const Cards = (props) => {
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/lady">View More</Link></Button>
+          <div className="button"><Link to="/lady">View More</Link></div>
           </div>
         </CardBody>
         </div>
@@ -127,7 +127,7 @@ const Cards = (props) => {
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/alvin">View More</Link></Button>
+          <div className="button"><Link to="/alvin">View More</Link></div>
           </div>
         </CardBody>
       </Card>
@@ -145,7 +145,7 @@ const Cards = (props) => {
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/archie">View More</Link></Button>
+          <div className="button"><Link to="/archie">View More</Link></div>
           </div>
         </CardBody>
       </Card>
@@ -163,7 +163,7 @@ const Cards = (props) => {
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/libby">View More</Link></Button>
+          <div className="button"><Link to="/libby">View More</Link></div>
           </div>
         </CardBody>
       </Card>
@@ -181,7 +181,7 @@ const Cards = (props) => {
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
-          <Button><Link to="/puddy">View More</Link></Button>
+          <div className="button"><Link to="/puddy">View More</Link></div>
           </div>
         </CardBody>
       </Card>

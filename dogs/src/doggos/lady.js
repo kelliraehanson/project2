@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-import logo from "../logo.png";
+import logo from "../title.png";
 import '../App.css';
 
 const Lady = (props) => {
