@@ -3,6 +3,7 @@ import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import logo from "../title.png";
 import { Link } from "react-router-dom";
+import Form1 from '../form';
 import '../App.css';
 
 const Lady = (props) => {
@@ -16,25 +17,23 @@ const Lady = (props) => {
 <div className="cardAll">
 <div className="singleCard2">
       <Card>
-      <div className="cardThings">
-      <div className="dogPic">
         <CardImg top width="100%" src="https://www.marshalswickveterinarysurgery.co.uk/wp-content/uploads/2018/05/509092254.jpg" alt="Card image cap" />
-      </div>  
         <CardBody>
         <div className="name">
           <CardTitle>Lady</CardTitle>
         </div>
         <div className="age">
-          <CardSubtitle>1 year old</CardSubtitle>
+          <CardSubtitle>3 years old, adult, female, spayed
+          </CardSubtitle>
         </div>
         <div className="about">
-          {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
+          <CardText>Hi everyone, my name is Lady.  I’m a 3 year old, 54 pound, Coonhound Mix with a heart of gold. I was found as a pregnant stray and recently moved to NHA with my puppies. Not much is known about my past, but I am very thankful that my present is here at NHA, and my future is in a forever home with (paws crossed) you. What is known about me is that I’m friendly, sweet, sometimes goofy, and always in a good mood. Pretty proud to say that my pups all take after me, too.</CardText>
           {/* <Button>Button</Button> */}
           </div>
         </CardBody>
-        </div>
       </Card>
-      </div>
+      <Form1/>
+    </div>
 
     </div>
     </div>

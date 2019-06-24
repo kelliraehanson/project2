@@ -14,12 +14,10 @@ const Blue = (props) => {
             <img src={logo} className="logo" alt="pup" /></Link>
         </div>
 
-<div className="cardAll">
-<div className="singleCard2">
       <Card>
-      <div className="cardThings">
-      <div className="dogPic">
-        <CardImg top width="100%" src="https://www.akc.org/wp-content/themes/akc/component-library/assets/img/welcome.jpg" alt="Card image cap" />
+      <div className="cardAll">
+      <div className="singleCard2">
+        <CardImg top width="100%" src="https://farm4.static.flickr.com/3879/14600053505_467145d614_b.jpg" alt="Card image cap" />
       </div>
         <CardBody>
           <div className="name">
@@ -35,10 +33,8 @@ const Blue = (props) => {
         </CardBody>
         </div>
       </Card>
+      <Form1/>
       </div>
-<Form1/>
-    </div>
-    </div>
   );
 };
 

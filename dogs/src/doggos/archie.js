@@ -3,6 +3,7 @@ import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import logo from "../title.png";
 import { Link } from "react-router-dom";
+import Form1 from '../form';
 import '../App.css';
 
 const Archie = (props) => {
@@ -22,14 +23,16 @@ const Archie = (props) => {
           <CardTitle>Archie</CardTitle>
         </div>
         <div className="age">
-          <CardSubtitle>5 years old</CardSubtitle>
+          <CardSubtitle>5 years old, adult, male, neutered
+          </CardSubtitle>
         </div>
         <div className="about">
-          {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}
+          <CardText>I’m an active little terrier mix that’s looking for a fun, forever family to join!  I love to play with toys and my very favorite one is a Kong with peanut butter in it!  I’m an energetic fella, so a home with a fenced yard would be ideal for me so I can run out my zoomies.  I’m up for going on adventures, but will also be happy to cuddle with you when the day is done!</CardText>
           {/* <Button>Button</Button> */}
           </div>
         </CardBody>
       </Card>
+      <Form1/>
     </div>
 
     </div>

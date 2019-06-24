@@ -20,7 +20,7 @@ const Cards = (props) => {
       <Card>
       <div className="cardThings">
       <div className="dogPic">
-        <CardImg top width="100%" src="https://www.akc.org/wp-content/themes/akc/component-library/assets/img/welcome.jpg" alt="Card image cap" />
+        <CardImg top width="100%" src="https://farm4.static.flickr.com/3879/14600053505_467145d614_b.jpg" alt="Card image cap" />
       </div>
         <CardBody>
           <div className="name">
@@ -104,7 +104,7 @@ const Cards = (props) => {
           <CardTitle>Lady</CardTitle>
         </div>
         <div className="age">
-          <CardSubtitle>1 year old</CardSubtitle>
+          <CardSubtitle>3 year old</CardSubtitle>
         </div>
         <div className="about">
           {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText> */}

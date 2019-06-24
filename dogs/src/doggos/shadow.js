@@ -3,6 +3,7 @@ import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import logo from "../title.png";
 import { Link } from "react-router-dom";
+import Form1 from '../form';
 import '../App.css';
 
 const Shadow = (props) => {
@@ -31,6 +32,7 @@ const Shadow = (props) => {
           </div>
         </CardBody>
       </Card>
+      <Form1/>
       </div>
 
     </div>

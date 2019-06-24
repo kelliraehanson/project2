@@ -4,7 +4,7 @@
 }
 
 .singleCard {
-  border: 5px solid black;
+  border: 3px solid black;
   width: 250px;
   height: 450px;
   display: flex;
@@ -13,11 +13,11 @@
   margin: 20px;
   padding: 10px;
   background-color: #fcfcfc;
-  box-shadow: 5px 5px grey;
+  box-shadow: 2px 2px grey;
 }
 
 .singleCard2 {
-  border: 5px solid black;
+  border: 3px solid black;
   width: 550px;
   height: auto;
   display: flex;
@@ -26,7 +26,7 @@
   margin: 20px;
   padding: 10px;
   background-color: #fcfcfc;
-  box-shadow: 5px 5px grey;
+  box-shadow: 2px 2px grey;
 }
 
 .cardAll {
@@ -89,7 +89,7 @@
 
 .navBar1 {
   /* border: 2px solid blue; */
-  height: 70px;
+  height: 55px;
   width: 100%;
   background-color: #14c498;
   /* border-bottom: 2px solid black; */
@@ -114,7 +114,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: -10px;
+  padding-top: 10px;
   margin-left: 5px;
   margin-right: 10px;
   text-decoration: none;
@@ -171,6 +171,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  margin-bottom: -90px;
 }
 
 .button:hover { 

@@ -1,26 +1,27 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-import logo from "./logo.png";
+  import { Link } from "react-router-dom";
+import logo from "./title.png";
 import './App.css';
 
 const About = (props) => {
   return (
     <div>
-      <header>
-        <div className="logoTitle">
-            <img src={logo} className="logo" alt="sleep" />
+       <div className="logoTitle">
+      <Link to="/">
+            <img src={logo} className="logo" alt="pup" /></Link>
         </div>
-      </header>
+
 
 <div className="cardAll">
 <div className="singleCard2">
       <Card>
-        <CardImg top width="100%" src="https://cityofmissionviejo.org/sites/default/files/cutedogsrabiesdefer3.png" alt="Card image cap" />
+        <CardImg top width="100%" src="https://www.thejungleni.com/app/uploads/2016/08/Group-of-Dogs.jpg" alt="Card image cap" />
         <CardBody>
 
         <div className="name">
-          <CardTitle>Shadow</CardTitle>
+          <CardTitle>About Us:</CardTitle>
         </div>
         <div className="age">
           <CardSubtitle>4 years old</CardSubtitle>
